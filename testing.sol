@@ -8,6 +8,7 @@ contract nums
 {
     // math[] matarray;
     address mataddress;
+    uint[] public arr = [1, 2, 3, 4, 5];
 
     constructor()
     {
@@ -16,7 +17,7 @@ contract nums
         mataddress = address(newmath);
     }
 
-    function perform() public view returns(uint)
+    function performsub() public view returns(uint)
     {
         // math domath = math(address(matarray[0]));
 
@@ -24,5 +25,15 @@ contract nums
         math domath = math(mataddress);
         // domath.add([1,2,3,4,5,6]);
         return domath.sub(11, 2);
+    }
+
+    function performadd() public view returns(uint)
+    {
+        // math domath = math(address(matarray[0]));
+
+        //the return value of line 14 is yet unknown but is to be casted into address before use.
+        math domath = math(mataddress);
+        // domath.add([1,2,3,4,5,6]);
+        return domath.add(arr);
     }
 }
