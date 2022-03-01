@@ -3,6 +3,7 @@
 pragma solidity > 0.6.0;
 
 //this code does basic math.
+//just committed from the remix ide
 contract math
 {
 
