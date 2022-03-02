@@ -7,6 +7,7 @@ import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 contract FundMe
 {
     mapping (address => uint256) public addressToAmountFunded;
+    address[] public funders;
     address public owner;
 
     constructor()
@@ -24,6 +25,7 @@ contract FundMe
         require(getConversionRate(msg.value) >= minimumUSD, "You need to spend more ETH");
 
         addressToAmountFunded[msg.sender] += msg.value;
+        funders.push(msg.sender);
     }
 
     function getVersion() public view returns(uint256)
@@ -60,5 +62,11 @@ contract FundMe
     function withdraw() payable public onlyowner
     {
         payable(msg.sender).transfer(address(this).balance);
+
+        for(uint i = 0; i < funders.length; i++)
+        {
+            addressToAmountFunded[funders[i]] = 0;
+        }
+        funders = new address[](0);
     }
 }
