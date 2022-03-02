@@ -7,6 +7,12 @@ import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 contract FundMe
 {
     mapping (address => uint256) public addressToAmountFunded;
+    address public owner;
+
+    constructor()
+    {
+        owner = msg.sender;
+    }
 
     //this contract should be able to accept some type of payment
     function fund() public payable
@@ -36,10 +42,23 @@ contract FundMe
     }
 
     
+    // function getConversionRate(uint ethAmount) public view returns(uint256)
     function getConversionRate(uint ethAmount) public view returns(uint256)
     {
         uint256 ethPrice = getPrice(); //wei
         uint256 ethAmountInUSD = (ethAmount * ethPrice) / 1000000000000000000;
         return ethAmountInUSD;
+    }
+
+    modifier onlyowner
+    {
+        require(msg.sender == owner); 
+        _;
+    }
+
+    //function to withdraw some funds
+    function withdraw() payable public onlyowner
+    {
+        payable(msg.sender).transfer(address(this).balance);
     }
 }

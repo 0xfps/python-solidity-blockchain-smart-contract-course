@@ -7,18 +7,27 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dec",
+				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "arr",
+				"inputs": [],
+				"name": "get",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -31,28 +40,9 @@
 			},
 			{
 				"inputs": [],
-				"name": "performadd",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "performsub",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "inc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -69,7 +59,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"testing.sol": "nums"
+			"increment.sol": "Counter"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -83,20 +73,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"calc.sol": {
-			"keccak256": "0xd0b7d2fa57cea906a18c661ddfea7cf342a8fbeccd8f0f58bcec3cab8523b756",
+		"increment.sol": {
+			"keccak256": "0x5b440a284dd294e79d335e17bad2c6bb9e7f60d5b02582ae4b1f5f1ed5483d11",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ddc7ccb09663ff86dd6eef0df498762a6b68ee075bea09dc7f9cb078fb7e319d",
-				"dweb:/ipfs/QmNMBCgYdBnJcT9qXuE7XaHq7bH18k5uRq1AymYrKegivg"
-			]
-		},
-		"testing.sol": {
-			"keccak256": "0x6030ba56591cbf94609cb7b3f81946f3a4d85a6dd7bba6eec230d80a4ce2b3ad",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://a37f4abafef5aa669f05085e92691cc2b6ffd1d5f0a475735ba24424224a1532",
-				"dweb:/ipfs/QmfTHGKDrTmd5z6UiY76apboKE4nAsYHU19AVf5K6vMj7o"
+				"bzz-raw://b0136c1dd814962111b5e44af633fd96b78b7d550a66fac47f77e40a28157d7e",
+				"dweb:/ipfs/QmPbCa6jSyjQj8b7A5eAR2b8NR5i3m7nRCWSgz15YSVwJW"
 			]
 		}
 	},
