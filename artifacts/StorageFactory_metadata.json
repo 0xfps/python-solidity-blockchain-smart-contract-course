@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.6.6+commit.6c089d02"
+		"version": "0.8.12+commit.f00d7308"
 	},
 	"language": "Solidity",
 	"output": {
@@ -157,17 +157,21 @@
 			}
 		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"SimpleFactory.sol": "StorageFactory"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "london",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -181,6 +185,7 @@
 	"sources": {
 		"SimpleFactory.sol": {
 			"keccak256": "0x3f813168170e6ae0ba134a22274ee2b9c03c8dea4d065c0577ae1ca675ce9126",
+			"license": "MIT",
 			"urls": [
 				"bzz-raw://0e240189c2a905b0a67921809a3cbeba00f8652d72d702c7eb665fd684f5d823",
 				"dweb:/ipfs/QmTCT9evHApkNJAZX9yEARRBCNe9p6MBD6McVvmp5ejEvk"
@@ -188,6 +193,7 @@
 		},
 		"SimpleStorage.sol": {
 			"keccak256": "0xa2979106458ac896c410cf1546f3ea947204d3e3a654bf9dc379297ebf478dae",
+			"license": "MIT",
 			"urls": [
 				"bzz-raw://e4b95329afdc3e5e282f4dfcb6213988f556ee079744c0ca5b0376f64f771450",
 				"dweb:/ipfs/QmQMgtyBiXTDAGDzZfWeg1DSqx5M3UnCBwmMg6vQd14g5g"

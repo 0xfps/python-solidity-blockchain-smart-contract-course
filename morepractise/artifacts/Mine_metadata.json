@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "enum Mine.Allnums",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "multiply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"morepractise/myprac.sol": "Mine"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"morepractise/myprac.sol": {
+			"keccak256": "0xf28491627bdeddf563a1c10ecc3767f3749ddb8bbc34a40bbf08ac37e64cf52e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ff6d27f2ea0bef8cb164575bf0ece0aef6987bc44318a32c5af232d2812061d8",
+				"dweb:/ipfs/QmSjvfxZd31Nq4c2aQ5d6DuvdPcwFqTQxPkRqHHoamW1JF"
+			]
+		}
+	},
+	"version": 1
+}
