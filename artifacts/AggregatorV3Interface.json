@@ -37,6 +37,7 @@
 			"sourceMap": ""
 		},
 		"deployedBytecode": {
+			"immutableReferences": {},
 			"linkReferences": {},
 			"object": "",
 			"opcodes": "",
@@ -44,36 +45,22 @@
 		},
 		"gasEstimates": null,
 		"methodIdentifiers": {
-			"addressToAmountFunded(address)": "3e47d6f3",
-			"fund()": "b60d4288",
-			"funders(uint256)": "dc0d3dff",
-			"getConversionRate(uint256)": "6e5b6b28",
-			"getPrice()": "98d5fdca",
-			"getVersion()": "0d8e6e2c",
-			"owner()": "8da5cb5b",
-			"withdraw()": "3ccfd60b"
+			"decimals()": "313ce567",
+			"description()": "7284e416",
+			"getRoundData(uint80)": "9a6fc8f5",
+			"latestRoundData()": "feaf968c",
+			"version()": "54fd4d50"
 		}
 	},
 	"abi": [
 		{
 			"inputs": [],
-			"stateMutability": "nonpayable",
-			"type": "constructor"
-		},
-		{
-			"inputs": [
-				{
-					"internalType": "address",
-					"name": "",
-					"type": "address"
-				}
-			],
-			"name": "addressToAmountFunded",
+			"name": "decimals",
 			"outputs": [
 				{
-					"internalType": "uint256",
+					"internalType": "uint8",
 					"name": "",
-					"type": "uint256"
+					"type": "uint8"
 				}
 			],
 			"stateMutability": "view",
@@ -81,25 +68,12 @@
 		},
 		{
 			"inputs": [],
-			"name": "fund",
-			"outputs": [],
-			"stateMutability": "payable",
-			"type": "function"
-		},
-		{
-			"inputs": [
-				{
-					"internalType": "uint256",
-					"name": "",
-					"type": "uint256"
-				}
-			],
-			"name": "funders",
+			"name": "description",
 			"outputs": [
 				{
-					"internalType": "address",
+					"internalType": "string",
 					"name": "",
-					"type": "address"
+					"type": "string"
 				}
 			],
 			"stateMutability": "view",
@@ -108,12 +82,78 @@
 		{
 			"inputs": [
 				{
-					"internalType": "uint256",
-					"name": "ethAmount",
-					"type": "uint256"
+					"internalType": "uint80",
+					"name": "_roundId",
+					"type": "uint80"
 				}
 			],
-			"name": "getConversionRate",
+			"name": "getRoundData",
+			"outputs": [
+				{
+					"internalType": "uint80",
+					"name": "roundId",
+					"type": "uint80"
+				},
+				{
+					"internalType": "int256",
+					"name": "answer",
+					"type": "int256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "startedAt",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "updatedAt",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint80",
+					"name": "answeredInRound",
+					"type": "uint80"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "latestRoundData",
+			"outputs": [
+				{
+					"internalType": "uint80",
+					"name": "roundId",
+					"type": "uint80"
+				},
+				{
+					"internalType": "int256",
+					"name": "answer",
+					"type": "int256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "startedAt",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint256",
+					"name": "updatedAt",
+					"type": "uint256"
+				},
+				{
+					"internalType": "uint80",
+					"name": "answeredInRound",
+					"type": "uint80"
+				}
+			],
+			"stateMutability": "view",
+			"type": "function"
+		},
+		{
+			"inputs": [],
+			"name": "version",
 			"outputs": [
 				{
 					"internalType": "uint256",
@@ -122,52 +162,6 @@
 				}
 			],
 			"stateMutability": "view",
-			"type": "function"
-		},
-		{
-			"inputs": [],
-			"name": "getPrice",
-			"outputs": [
-				{
-					"internalType": "uint256",
-					"name": "",
-					"type": "uint256"
-				}
-			],
-			"stateMutability": "view",
-			"type": "function"
-		},
-		{
-			"inputs": [],
-			"name": "getVersion",
-			"outputs": [
-				{
-					"internalType": "uint256",
-					"name": "",
-					"type": "uint256"
-				}
-			],
-			"stateMutability": "view",
-			"type": "function"
-		},
-		{
-			"inputs": [],
-			"name": "owner",
-			"outputs": [
-				{
-					"internalType": "address",
-					"name": "",
-					"type": "address"
-				}
-			],
-			"stateMutability": "view",
-			"type": "function"
-		},
-		{
-			"inputs": [],
-			"name": "withdraw",
-			"outputs": [],
-			"stateMutability": "payable",
 			"type": "function"
 		}
 	]

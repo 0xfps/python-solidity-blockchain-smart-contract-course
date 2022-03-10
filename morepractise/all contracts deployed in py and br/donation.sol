@@ -33,7 +33,7 @@ contract Donation
     }
 
 
-    function See_Length() private view returns(uint)
+    function See_Length() public view returns(uint)
     {
         return donors.length;
     }

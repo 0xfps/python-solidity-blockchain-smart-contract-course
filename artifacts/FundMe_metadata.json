@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.12+commit.f00d7308"
+		"version": "0.6.1+commit.e6f7d5a4"
 	},
 	"language": "Solidity",
 	"output": {
@@ -122,21 +122,17 @@
 			}
 		],
 		"devdoc": {
-			"kind": "dev",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		},
 		"userdoc": {
-			"kind": "user",
-			"methods": {},
-			"version": 1
+			"methods": {}
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"fundme.sol": "FundMe"
 		},
-		"evmVersion": "london",
+		"evmVersion": "istanbul",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -148,20 +144,25 @@
 		"remappings": []
 	},
 	"sources": {
-		"@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol": {
-			"keccak256": "0xf2b6c9adb3552254df1445b73563cf014434ff5e78663e9b961b6c059506ceb5",
-			"license": "MIT",
+		"@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol": {
+			"keccak256": "0x8895ce4f46aba18ee3cdb7b1d180f79edb868225781f60993c7b2181e2ee2583",
 			"urls": [
-				"bzz-raw://6c1f59e0c7334c22fb54288728fc32546bdc9c8133d6db0d60223e3c28f52120",
-				"dweb:/ipfs/QmeuxawUVBhMWQJXaEhhnubCTc4Jwn5wYK8gbhq6NjrpfG"
+				"bzz-raw://4472c14df5f311d7a2eff1dfa55d9b4d39a21b0a0ff905fcbbf6913551086a4c",
+				"dweb:/ipfs/QmQvwFk1SBaLMm4pmZCz7UEhfaXM8kUWu5VG71VFFuMxjF"
+			]
+		},
+		"@chainlink/contracts/src/v0.6/vendor/SafeMathChainlink.sol": {
+			"keccak256": "0x105f5e9491f3d0bbdd4f1c7627eb839d69b944bfd803028a01cc083597692c1f",
+			"urls": [
+				"bzz-raw://ec45a2748a024a947a921183d4102d5e206808588501d85ddc4f5668a009bc73",
+				"dweb:/ipfs/QmRNAMpq7LdWFnJ7wWKGbUuAcURaGSS42PMxtQ4vjrHmp9"
 			]
 		},
 		"fundme.sol": {
-			"keccak256": "0xb32308ab87414b39d08bde134b91c30db5ed339a7d118803fb881d2cab212497",
-			"license": "MIT",
+			"keccak256": "0x8dfa93ed43a17087f87dee2b65467d80fb48f208cf39a08eadd4cd09c7c5ff86",
 			"urls": [
-				"bzz-raw://79c6c209aa00fda93ca652e1188a93eb31d554b5a4492b500a7cde58f3be0648",
-				"dweb:/ipfs/QmSZJWcPMqKFPbDo1nrPZgqmiVjevZjRhrNWVoQkmJmDfw"
+				"bzz-raw://6bb02873349e8d69e8f3aa79a3260173b796d60749a0d1cfd8fc899266732f3f",
+				"dweb:/ipfs/QmRkpFtTp7CzSjyiWLhAWZeqBSRDQH7kmP7Hq3CzPCmnNP"
 			]
 		}
 	},

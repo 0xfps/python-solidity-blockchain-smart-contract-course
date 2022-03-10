@@ -2,7 +2,8 @@
 
 pragma solidity >= 0.6.0 < 0.9.0;
 
-import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
+import "@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol";
+import "@chainlink/contracts/src/v0.6/vendor/SafeMathChainlink.sol";
 
 contract FundMe
 {
@@ -10,7 +11,7 @@ contract FundMe
     address[] public funders;
     address public owner;
 
-    constructor()
+    constructor() internal
     {
         owner = msg.sender;
     }

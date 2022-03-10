@@ -19,6 +19,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "See_Length",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -113,10 +126,10 @@
 	},
 	"sources": {
 		"morepractise/all contracts deployed in py and br/donation.sol": {
-			"keccak256": "0x10659457965e0690d178e514ffc1c7d64f025edd01675a76fa02ac6033e0b1b9",
+			"keccak256": "0x61b61cae2082a1d2ff068805b4192bbf7da8b12917dc3784769ec89a1394134b",
 			"urls": [
-				"bzz-raw://d15f68b1985c029a76a99331ffd1c4d9b07a536bf0bb921c2e234eedb5aecaad",
-				"dweb:/ipfs/QmWWQddTQ1bX4MrMBfTE9VPfz1zPzMicacwsCupZsKNcex"
+				"bzz-raw://e5cc897c866ec3c8ce319ea90ceac058d44a6d81763272d339accddd1a9b0a13",
+				"dweb:/ipfs/QmQ8xqEQaF4q7wMXa5yS2KYJn8XEWw9X53RH8ki7kQ1uQB"
 			]
 		}
 	},
