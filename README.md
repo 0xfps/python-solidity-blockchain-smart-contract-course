@@ -1,4 +1,4 @@
-# python-solidity-blockchain-smart-contract-course
+# Javascript-Hardhat-solidity-blockchain-smart-contract-course
 
 25th February, 2022.
 
