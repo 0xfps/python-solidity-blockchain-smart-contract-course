@@ -8,7 +8,7 @@ def deploy_simple_storage():
     # account = accounts.load("freecodecamp-account")
     # account = accounts.add(config["wallet"]['from_key'])
     # print(account)
-    simple_storage = SimpleStorage.deploy({"from":account})
+    simple_storage = SimpleStorage.deploy({"from":account}, publish_source=True)
     stored_value = simple_storage.retrieve()
     print(stored_value)
     transaction = simple_storage.store(15, {"from": account})
