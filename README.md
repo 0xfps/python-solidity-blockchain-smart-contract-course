@@ -67,3 +67,89 @@ Introduction to constants.
 ##
 
 <br/>
+
+> - <a href="https://github.com/fps8k/python-solidity-blockchain-smart-contract-course/blob/main/f.sol">8. F</a>:
+
+##
+
+<br/>
+
+> - <a href="https://github.com/fps8k/python-solidity-blockchain-smart-contract-course/blob/main/fundme.sol">9. Fund Me</a>:
+
+Contract that takes in eth and allows only the owner to withdraw.
+
+##
+
+<br/>
+
+> - <a href="https://github.com/fps8k/python-solidity-blockchain-smart-contract-course/blob/main/helloworld.sol">10. HelloWorld</a>:
+
+Say "Hello World!".
+
+##
+
+<br/>
+
+> - <a href="https://github.com/fps8k/python-solidity-blockchain-smart-contract-course/blob/main/increment.sol">11. Increment</a>:
+
+Basic counter.
+
+##
+
+<br/>
+
+> - <a href="https://github.com/fps8k/python-solidity-blockchain-smart-contract-course/blob/main/helloworld.sol">12. Length of Structs</a>:
+
+A contract that returns the length of a struct.
+
+##
+
+<br/>
+
+> - <a href="https://github.com/fps8k/python-solidity-blockchain-smart-contract-course/blob/main/mappings.sol">13. Mappings</a>:
+
+A little bit more on mappings.
+
+##
+
+<br/>
+
+> - <a href="https://github.com/fps8k/python-solidity-blockchain-smart-contract-course/blob/main/multimappings.sol">14. Multi-Mappings</a>:
+
+Nested mappings.
+
+##
+
+<br/>
+
+> - <a href="https://github.com/fps8k/python-solidity-blockchain-smart-contract-course/blob/main/s.sol">15. S</a>:
+
+Play around.
+
+##
+
+<br/>
+
+> - <a href="https://github.com/fps8k/python-solidity-blockchain-smart-contract-course/blob/main/t.py">16. T</a>:
+
+Python number formatter.
+
+##
+
+<br/>
+
+> - <a href="https://github.com/fps8k/python-solidity-blockchain-smart-contract-course/blob/main/test.sol">17. Test</a>:
+
+Aggregator V3 Interface.
+
+##
+
+<br/>
+
+> - <a href="https://github.com/fps8k/python-solidity-blockchain-smart-contract-course/blob/main/testing.sol">18. Testing</a>:
+
+Testing my calc.sol file.
+
+##
+
+<br/>
