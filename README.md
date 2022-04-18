@@ -4,9 +4,9 @@
 
 Hi, my name is Anthony, I'm 19.
 
-This is my first course in the blockchain ecosystem, hopefully, I will make commits to this repository everyday for the next 6 months [i.e February - August]
+This is my first course in the blockchain ecosystem, hopefully, I will make commits to this repository everyday for the next 2 months [i.e February - March]
 
-Hopefully, with over this course of 6 months, I will have what it takes to be a solidity engineer, get a solidity or blockchain job, fund my young startup and grow in the blockchain ecosystem.
+Hopefully, with over this course of time, I will have what it takes to be a solidity engineer, get a solidity or blockchain job, fund my young project and grow in the blockchain ecosystem.
 
 ##
 
@@ -57,6 +57,12 @@ Contract that makes sure the minimum amount mapped to a sender is 600 kobo i.e 6
 > - <a href="https://github.com/fps8k/python-solidity-blockchain-smart-contract-course/blob/main/contracts.sol">6. Contracts</a>:
 
 Introduction to constants.
+
+##
+
+<br/>
+
+> - <a href="https://github.com/fps8k/python-solidity-blockchain-smart-contract-course/blob/main/curiosity.sol">7. Curiosity</a>:
 
 ##
 
